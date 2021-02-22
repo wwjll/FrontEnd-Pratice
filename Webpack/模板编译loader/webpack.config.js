@@ -1,3 +1,14 @@
+/**
+ * mode develpment production
+ * entry 入口文件
+ * output path filename 打包输出路径
+ * devtool source-map
+ * module rules loader
+ * plugins 插件
+ * devSeerver 开发服务器
+ */
+
+
 const { resolve } = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
